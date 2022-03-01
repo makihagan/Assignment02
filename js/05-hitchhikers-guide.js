@@ -16,5 +16,5 @@ if (readyToPlay === 'yes') {
             alert('You entered an invalid answer. Refresh the browser and start over');
     }
 } else {
-    alert('Thank you for visiting! Play again sometime!')
+    alert('Thank you for visiting! Play again sometime!');
 }
