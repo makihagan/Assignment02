@@ -2,7 +2,7 @@ let coinFlip;
 let randomNum = Math.round(Math.random());
 coinFlip = randomNum;
 let choice = prompt('Heads or Tails?');
-if (coinFlip <= 4) {
+if (coinFlip <= 0) {
     if (choice === 'Heads' || choice === 'heads') {
         alert('The flip was heads and you chose heads... you win!');
     } else if (choice === "Tails"  || choice === "tails") {
@@ -25,6 +25,4 @@ if (coinFlip <= 4) {
 
 console.log(coinFlip);
 console.log(randomNum);
-// I added console.log to check what's the random number is
-// because everytime the flip is heads...
-// It seems that I only get 0 or 1... 
+// I wanted to see that which number it gets every time in console
